@@ -94,7 +94,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\..\Desktop\Ogre Tutorial\BaseApplication.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Ogre Tutorial\TutorialApplication.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Ogre Tutorial\Tutorial1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\Desktop\Ogre Tutorial\BaseApplication.h" />

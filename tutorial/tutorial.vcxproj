@@ -59,7 +59,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\boost\lib;X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\lib\Release;X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\lib\$(Configuration);X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\lib\$(Configuration);X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\boost\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;OgreOverlay_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;OgreOverlay_d.lib;OgreTerrain_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(OutDir)\$(TargetFileName)" "X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\Bin\$(Configuration)"</Command>
@@ -86,7 +86,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalLibraryDirectories>X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\\boost\lib;X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\\lib\$(Configuration);X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\lib\$(Configuration);X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\boost\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>OgreMain.lib;OIS.lib;OgreOverlay.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;OgreOverlay.lib;OgreTerrain.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(OutDir)\$(TargetFileName)" "X:\Ogre SDK\OgreSDK_vc11_v1-9-0unstable\Bin\$(Configuration)"</Command>
